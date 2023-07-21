@@ -34,4 +34,4 @@ join inventory i on i.inventory_id = r.inventory_id
 where date(p.payment_date) = '2005-07-30' 
 group by concat(c.last_name, ' ', c.first_name);
 ```
-![](https://github.com/olimp85/index/blob/main/explane%20analyse%202.jpg)
+![](https://github.com/olimp85/index/blob/main/explane%20analyze%202.jpg)
